@@ -1,4 +1,4 @@
-<div>
+<div class="clearfix">
 	<% if	(theme.imglogo.enable&&theme.imglogo.src){ %>
 	<div id="imglogo">
 		<a href="<%- config.root %>
@@ -27,8 +27,7 @@
 	<div class="navbar">
 		<a class="navbutton navmobile" href="#" title="<%= __('menu') %>"></a>
 	</div>
-	<nav>
-		<ul>
+		<nav class="animated">
 			<ul>
 				<% for (var i in theme.menu){ %>
 				<li>
