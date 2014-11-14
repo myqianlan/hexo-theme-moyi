@@ -3,6 +3,9 @@ menu:
   主页: /
   归档: /archives
   关于: /about
+  微博: http://weibo.com/u/2952588044
+  知乎: http://www.zhihu.com/people/tan-lin-quan
+  GitHub: https://github.com/myqianlan
 rss: /atom.xml
 
 # Content
@@ -25,12 +28,11 @@ links:
   热前端: http://reqianduan.com
 
 # Miscellaneous
-google_analytics:
+google_analytics: false
 favicon: /img/favicon.ico
-twitter:
-google_plus:
-fb_admins: 
-fb_app_id:
+weibo: "myqianlan"
+zhihu: "tan-lin-quan"
+github: "myqianlan"
 
 # Duoshuo
 duoshuo_shortname: "myqianlan"
