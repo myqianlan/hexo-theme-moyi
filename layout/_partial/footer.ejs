@@ -4,11 +4,9 @@
   <% } %>
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-      and
-      Theme by <a href="https://github.com/myqianlan/hexo-theme-moyi" target="_blank">Moyi</a>
-      <%- partial('zhanzhang_tongji') %>
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>&nbsp;&nbsp;&nbsp;&nbsp;<%- partial('zhanzhang_tongji') %><br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and GitHub, 
+      theme by <a href="https://github.com/myqianlan/hexo-theme-moyi" target="_blank">Moyi</a>
     </div>
   </div>
 </footer>
