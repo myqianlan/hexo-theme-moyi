@@ -13,7 +13,7 @@
 <% } else { %>
   <% var last; %>
   <% page.posts.each(function(post, i){ %>
-    <% var year = post.date.year(); %>
+    <% var year = post.date.format('MMM YYYY'); %>
     <% if (last != year){ %>
       <% if (last != null){ %>
         </div></section>

@@ -9,7 +9,7 @@ menu:
 rss: /atom.xml
 
 # Content
-fancybox: false
+fancybox: true
 mathjax: false
 
 # Sidebar
@@ -18,21 +18,19 @@ widgets:
 - category
 - tag
 - tagcloud
-- archive
+#- archive
 - recent_posts
 - links
 
 # Links
 links:
-  主题作者: http://xiguabaobao.com
-  热前端: http://reqianduan.com
+  hexo: http://hexo.io/
+  landscape-plus主题: https://github.com/xiangming/landscape-plus
 
 # Miscellaneous
 google_analytics: false
+zhanzhang_tongji: true
 favicon: /img/favicon.ico
-weibo: "myqianlan"
-zhihu: "tan-lin-quan"
-github: "myqianlan"
 
 # Duoshuo
 duoshuo_shortname: "myqianlan"
